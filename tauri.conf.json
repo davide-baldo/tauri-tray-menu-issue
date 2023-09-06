@@ -1,0 +1,23 @@
+{
+  "build": {
+    "distDir": "../build/"
+  },
+  "package": {
+    "productName": "tauri-tray-menu-issue",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "identifier": "me.baldo.tauri-tray-menu-issue",
+      "active": true,
+      "icon": [
+        "icons/icon.icns",
+        "icons/icon.png"
+      ]
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": []
+  }
+}
